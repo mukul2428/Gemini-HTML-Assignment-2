@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <style>
+        table, th, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <div class="form">
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="number">Phone Number:</label>
+                <input type="number" id="number" name="number" placeholder="Phone no."><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" placeholder="Date of Birth"><br><br>
+
+                <label for="address">Address:</label>
+                <br><textarea name="address" id="address" cols="30" rows="10"></textarea><br><br>
+
+                <label for="gender">Gender :</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female"><br><br>
+
+                <label for="city">City :</label>
+                <select id="city" name="city">
+                    <option value="" disabled selected hidden>Choose City</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="gurugram">Gurugram</option>
+                    <option value="Banglore">Banglore</option>
+                </select><br><br>
+
+                <label for="hobbies">Hobbies:</label><br>
+                <input type="checkbox" id="books" name="books" value="books">
+                <label for="books"> Reading Books</label><br>
+                <input type="checkbox" id="cricket" name="cricket" value="cricket">
+                <label for="cricket">Playing Cricket</label><br>
+                <input type="checkbox" id="sketching" name="sketching" value="sketching">
+                <label for="sketching"> Sketching</label><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"><br><br>
+
+                <table>
+                    <thead>
+                        <th>SNo.</th>
+                        <th>Name</th>
+                        <th>Phone No.</th>
+                        <th>Gender</th>
+                        <th>DOB</th>
+                        <th>Interest</th>
+                    </thead>
+                    <tr>
+                        <td>1.</td>
+                        <td>Mukul</td>
+                        <td>8081910191</td>
+                        <td>Male</td>
+                        <td>9-Aug-2000</td>
+                        <td>Sketching<br>Football<br>Video Games</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Manish</td>
+                        <td>8901910191</td>
+                        <td>Male</td>
+                        <td>29-Jul-1998</td>
+                        <td>Cricket<br>Football
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Raghav</td>
+                        <td>9102323191</td>
+                        <td>Male</td>
+                        <td>19-Jan-1999</td>
+                        <td>Cricket</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
