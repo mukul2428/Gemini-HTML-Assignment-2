@@ -51,6 +51,12 @@ label{
     border: 2px solid gray;
     border-radius: 5px;
 }
+.address{
+    float: left;
+}
+#address{
+    margin-left: 8px;
+}
 .btn{
     padding: 8px 20px;
     margin: 10px;
